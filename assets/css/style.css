@@ -15,6 +15,7 @@ header {
 
 #headerBar {
     width: 60%;
+    min-width: 600px;
     margin: 0 auto;
 }
 
@@ -37,6 +38,7 @@ nav {
 nav ul {
     margin: 0;
     padding: 10px;
+    padding-right: 0;
     list-style: none;
 }
 
@@ -66,35 +68,32 @@ header:after {
 
 /* About Me Section */
 
-#about-me {
+#container {
+    position: relative;
     width: 60%;
-    height: 100%;
+    min-width: 600px;
     margin: 20px auto;
     background-color: white;
 }
 
-#about-me h2 {
+#container h2 {
     color: #4aaaa5;
     padding: 20px;
     margin: 0;
 }
 
-#about-me hr {
+#container hr {
     margin: 20px;
 }
 
 #bio-photo {
     float: left;
     margin: 20px;
-    padding: 0;
 }
+
 #bio-text {
     margin: 20px;
     padding: 0;
-}
-
-#bio-text p1 {
-    margin-top: 20px;
     color: #777;
     line-height: 2;
 }
