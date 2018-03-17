@@ -11,16 +11,51 @@
 
 </head>
 <body>
-    <!--This is the header section --> 
-    <div class="navbar">
-        <h1 id="siteName">Jonathon Engelien</h1>
-        <section>
-            <a href="#home">Home</a>
-            <a href="#news">News</a>
-            <a href="#contact">Contact</a>
-        </section>
-    </div> 
+    <!--This is the Header section --> 
+    <header>
+        <section id="headerBar">
+            <h1 id="siteName">Jonathon Engelien</h1>
 
+            <nav>
+                <ul>
+                    <li><a href="index.html">About</a></li>
+                    <p1>|</p1>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <p1>|</p1>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>     
+            </nav>
+
+        </section>   
+    </header>
+
+     <!-- This is the About Me section -->
+     <div class="container">
+
+        <h2>Contact Me</h2>
+
+        <hr>
+
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith">
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="example@gmail.com">
+
+            <label for="message">Message</label>
+            <textarea name="message" rows="10" type="text" id="message"></textarea>
+
+            <button type="submit" form="form1" value="Submit">Submit</button>
+        </form>
+
+    </div>
+
+    <footer>
+        <p>
+            Copyright
+        </p>
+    </footer>
 
 </body>
 </html>
